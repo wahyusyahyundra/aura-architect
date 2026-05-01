@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CheckCircle2, Circle, Clock, Layout } from 'lucide-react';
+import { Circle, Clock, Layout } from 'lucide-react';
 
 const BlueprintCanvas = ({ blueprint }) => {
   if (!blueprint) return null;
